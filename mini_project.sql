@@ -185,4 +185,5 @@ DELIMITER ;
 
 CALL find_friends(1, 5, 0);
     
-    
+CREATE INDEX idx_posts_created_at 
+ON Posts(created_at );
